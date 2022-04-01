@@ -1,0 +1,11 @@
+model_data.zip
+data/.DS_Store
+data/articles.csv
+data/corpus.csv
+data/customers.csv
+data/transactions_train.csv
+model_data/.DS_Store
+model_data/customer_id_dict.json
+model_data/d2v.model
+model_data/d2v.model.dv.vectors.npy
+model_data/prod_id_dict.json
