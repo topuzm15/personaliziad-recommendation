@@ -9,3 +9,5 @@ model_data/customer_id_dict.json
 model_data/d2v.model
 model_data/d2v.model.dv.vectors.npy
 model_data/prod_id_dict.json
+data/
+model_data/
