@@ -11,3 +11,4 @@ model_data/d2v.model.dv.vectors.npy
 model_data/prod_id_dict.json
 data/
 model_data/
+.DS_Store
