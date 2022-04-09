@@ -15,3 +15,5 @@ model_data/
 weihts/.data-00000-of-00001
 weihts/.index
 weihts/checkpoint
+print.log
+logs/events.out.tfevents.1649504909.LIMON.11460.221762.v2
