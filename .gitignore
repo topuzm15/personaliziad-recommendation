@@ -12,3 +12,6 @@ model_data/prod_id_dict.json
 data/
 model_data/
 .DS_Store
+weihts/.data-00000-of-00001
+weihts/.index
+weihts/checkpoint
