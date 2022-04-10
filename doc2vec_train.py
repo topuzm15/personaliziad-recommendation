@@ -1,12 +1,15 @@
-import pandas as pd
+from dask import dataframe as dd
 import multiprocessing
 from nltk.tokenize import word_tokenize
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
 
 # doc2vec
-corpus = pd.read_csv('data/corpus.csv', index_col=False)["doc"].apply(lambda x: x.replace('.','')).to_list()
+print("starting ...")
+corpus = dd.read_csv('data/corpus.csv')["doc"].compute().apply(lambda x: x.replace('.','')).to_list()
+print("data read done...")
 Documents = [TaggedDocument(words=word_tokenize(_d.lower()), tags=[str(i)]) for i, _d in enumerate(corpus)]
+print("corpus ok...")
 epochs = 50
 cores = multiprocessing.cpu_count()
 
