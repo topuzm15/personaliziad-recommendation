@@ -20,3 +20,6 @@ logs/events.out.tfevents.1649504909.LIMON.11460.221762.v2
 submission.csv
 .gitignore
 submission.csv.zip
+submission_d2v.csv
+.gitignore
+submission.zip
