@@ -25,3 +25,6 @@ submission_d2v.csv
 submission.zip
 weihts/collabrative.data-00000-of-00001
 weihts/collabrative.index
+weights/model1.h5
+weights/model2.h5
+weights
