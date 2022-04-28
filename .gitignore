@@ -28,3 +28,10 @@ weihts/collabrative.index
 weights/model1.h5
 weights/model2.h5
 weights
+weihts/collabrative/.data-00000-of-00001
+.gitignore
+weihts/collabrative/checkpoint
+weihts/training1/collabrative.data-00000-of-00001
+weihts/training1/collabrative.index
+weihts/training1/checkpoint
+weihts/collabrative/.index
