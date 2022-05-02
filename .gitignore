@@ -35,3 +35,11 @@ weihts/training1/collabrative.data-00000-of-00001
 weihts/training1/collabrative.index
 weihts/training1/checkpoint
 weihts/collabrative/.index
+.vscode/settings.json
+.gitignore
+dask-worker-space/global.lock
+dask-worker-space/purge.lock
+dask-worker-space/worker-fuw9yvqk.dirlock
+dask-worker-space/worker-isdiun2y.dirlock
+dask-worker-space/worker-qi3lb1l8.dirlock
+dask-worker-space/worker-uk54sd5p.dirlock

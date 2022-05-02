@@ -1,0 +1,1 @@
+docker run --gpus all --rm -it -p 8888:8888 -p 8787:8787 -p 8786:8786 --mount type=bind,source=D:/workspace/H-M,target=/rapids/notebooks/H-M rapidsai/rapidsai-core:22.04-cuda11.0-runtime-ubuntu20.04-py3.8
