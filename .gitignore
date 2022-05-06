@@ -43,3 +43,7 @@ dask-worker-space/worker-fuw9yvqk.dirlock
 dask-worker-space/worker-isdiun2y.dirlock
 dask-worker-space/worker-qi3lb1l8.dirlock
 dask-worker-space/worker-uk54sd5p.dirlock
+personalization/ensemble/tf_idf.h5
+personalization/ensemble_train/dl.h5
+.gitignore
+personalization/ensemble_train/tf_idf.h5
