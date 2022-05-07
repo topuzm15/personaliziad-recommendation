@@ -47,3 +47,7 @@ personalization/ensemble/tf_idf.h5
 personalization/ensemble_train/dl.h5
 .gitignore
 personalization/ensemble_train/tf_idf.h5
+personalization/ensemble/d2vf.h5
+.gitignore
+personalization/ensemble_train/d2vf.h5
+personalization/ensemble/dl.h5
