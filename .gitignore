@@ -51,3 +51,5 @@ personalization/ensemble/d2vf.h5
 .gitignore
 personalization/ensemble_train/d2vf.h5
 personalization/ensemble/dl.h5
+personalization/ensemble_train/lda.h5
+personalization/ensemble_train/nmf.h5
