@@ -54,3 +54,4 @@ personalization/ensemble/dl.h5
 personalization/ensemble_train/lda.h5
 personalization/ensemble_train/nmf.h5
 personalization/ensemble/nmf.h5
+personalization/ensemble/lda.h5
