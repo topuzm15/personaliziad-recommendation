@@ -55,3 +55,6 @@ personalization/ensemble_train/lda.h5
 personalization/ensemble_train/nmf.h5
 personalization/ensemble/nmf.h5
 personalization/ensemble/lda.h5
+.ipynb_checkpoints/data_preprocess-checkpoint.ipynb
+.ipynb_checkpoints/predict-checkpoint.ipynb
+.ipynb_checkpoints/data_preprocess-checkpoint.ipynb
