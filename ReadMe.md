@@ -1,33 +1,10 @@
-docker run --gpus all --rm -it -p 8888:8888 -p 8787:8787 -p 8786:8786 --mount type=bind,source=D:/workspace/H-M,target=/rapids/notebooks/H-M rapidsai/rapidsai-core:22.04-cuda11.0-runtime-ubuntu20.04-py3.8
+# Recommendation Engine Model Trials
 
+In this repo I try to build ensemble of models to scores products based on product and client features. To work on recommendation alorithms I use <a href="https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/overview">H&M  kaggle datased</a>. To handle this kind of big data set I use one of the popular big data framework dask and to accelareta data preprocessing part I use gpu with cudf. This repository has three main parts:
 
-# LGBM scores WO personalization
-prod_sold_count 0.40576834046777216
-quotient 0.10947504404189416
-same_prod_rebuy_count 0.10898192722537546
-time_passed_last_purchase 0.09359379590603613
-avg_purchase_time 0.07098665904070904
-prod_rebuy_count 0.06155393142248285
-age_mean 0.05273894205293626
-age 0.04204404399032534
-age_std 0.03971259361818948
-numberOfArticles 0.015144722234279135
+* Data preprocessing
+* Content & Collabrative models
+* Ensemble and Ranking model
+  
+In the data processing part I use dask and implement some feature engineering and data cleaning methods. In the secodn part to scores the products based on client preferences I use tf-idf, doc2vec as content based models and I use LDa, LSA, NMF and PCA as collabrative models. In the third part I use LGBM as ensemble model to combine and rerank the products based on the product features, client features and scores from the content and collabrative models.
 
-# LGBM with personalization
-prod_sold_count 0.2836786055996997
-tf_idf 0.25924597119303733
-lda 0.08416608189245862
-d2v 0.06079268822580631
-quotient 0.049681174374713845
-age_mean 0.03371351459172249
-prod_rebuy_count 0.03364375484289956
-nmf 0.032261554126551156
-same_prod_rebuy_count 0.031878400620133404
-age_std 0.028964150954797416
-age 0.025798145230368653
-dl 0.022262848135965
-numberOfArticles 0.019369335589310293
-time_passed_last_purchase 0.01711205403704486
-freq_week 0.01194918871525492
-different_week 0.005298889806617426
-avg_purchase_time 0.00018364206361899492
